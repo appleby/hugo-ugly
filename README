@@ -1,0 +1,24 @@
+Hugo Ugly
+---------
+
+Hugo Ugly is a Hugo theme that attempts to be a simple as possible while still providing MathJax and source code highlighting. This theme doesn't include any CSS and only provides the minimal layout templates necessary to render an index page and the default single and list templates, plus a basic 404.html.
+
+The resulting unstyled markup is therefore either "ugly" or "the most beautifully perfect thing on the internet" or both, depending on your outlook.
+
+Why?
+----
+
+1. To try and cure myself of the disease of tweaking CSS and layouts
+   of other people's themes to get them "just right".
+
+2. As an experiment to see if having the ugliest possible website
+   encourages me to focus on substance over style.
+
+3. Because I got tired of using popular themes and having stuff break
+   every couple of months when I updated (my fault for overriding
+   layouts, but still annoying).
+
+4. To soothe my sentimental pining for the 90's, when the internet was
+   low on visual polish, but high on serendipity; when websites were
+   ugly, but--like Forrest Gump's box of chocolates--you never knew
+   what you were going to get.
