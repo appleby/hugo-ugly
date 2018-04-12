@@ -1,9 +1,11 @@
+{{ if .Params.highlight }}
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
 
 {{ range .Params.highlight_languages }}
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/{{ . }}.min.js"></script>
 {{ end }}
 <script>hljs.initHighlightingOnLoad();</script>
+{{ end }}
 
 {{ if .Params.math }}
 <script type="text/x-mathjax-config">
