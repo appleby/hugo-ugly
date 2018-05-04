@@ -21,6 +21,11 @@
     {{ end }}
   </div>
 
+  {{ if .Params.toc }}
+  <h1 id="toc">Table of Contents</h1>
+  {{ .TableOfContents }}
+  {{ end }}
+
   {{ .Content }}
 
 </div>
