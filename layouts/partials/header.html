@@ -11,11 +11,7 @@
     {{- if .Description -}}
     {{- .Scratch.Set "description" .Description -}}
     {{- else if .IsPage -}}
-    {{- if .Params.summary -}}
-    {{- .Scratch.Set "description" .Params.summary -}}
-    {{- else -}}
     {{- .Scratch.Set "description" .Summary -}}
-    {{- end -}}
     {{- end }}
     <meta name="description" content="{{ .Scratch.Get "description" }}">
 
