@@ -8,7 +8,7 @@
 <div>
   <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
   <div>
-    {{ printf "%s" .Summary | markdownify }}
+    {{ printf "%s" .Summary | safeHTML }}
   </div>
 </div>
 {{ end }}
