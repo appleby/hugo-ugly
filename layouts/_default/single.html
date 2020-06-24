@@ -28,6 +28,10 @@
 
   {{ .Content }}
 
+  {{ if .Params.disqus }}
+  {{ template "_internal/disqus.html" . }}
+  {{ end }}
+
 </div>
 
 {{ partial "footer.html" . }}
